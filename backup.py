@@ -1,45 +1,98 @@
+#!/usr/bin/env python3
+"""
+GreenViet LEED Tracker — Supabase Auto Backup
+Dùng với GitHub Actions: đọc key từ environment variables
+"""
+
 import os
-import pandas as pd
-from supabase import create_client
+import json
+import csv
 from datetime import datetime
+from pathlib import Path
+from supabase import create_client, Client
 
-# Lấy thông tin từ GitHub Secrets (đã thiết lập ở bước trước)
-URL = os.environ.get("SUPABASE_URL")
-KEY = os.environ.get("SUPABASE_KEY")
+# ── Đọc config từ environment variables (GitHub Secrets) ──────
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 
-# QUAN TRỌNG: Thay tên các bảng dưới đây bằng tên bảng thực tế trong Supabase của bạn
-# Ví dụ: nếu bạn có bảng tên là 'du_an' và 'cong_viec', hãy sửa lại cho đúng
-TABLES = ['projects', 'tasks'] 
+if not SUPABASE_URL or not SUPABASE_KEY:
+    raise ValueError("Thiếu SUPABASE_URL hoặc SUPABASE_KEY trong environment!")
 
-def run_backup():
-    if not URL or not KEY:
-        print("Lỗi: Không tìm thấy SUPABASE_URL hoặc SUPABASE_KEY trong Secrets!")
+# Các bảng cần backup
+TABLES = ["profiles", "projects", "tasks", "activity_logs"]
+
+# Thư mục lưu (trong repo GitHub)
+BACKUP_DIR = Path("backup_data")
+BACKUP_DIR.mkdir(exist_ok=True)
+
+def fetch_table(client: Client, table: str) -> list:
+    """Tải toàn bộ dữ liệu, hỗ trợ phân trang."""
+    all_rows = []
+    page_size = 1000
+    offset = 0
+    while True:
+        resp = (
+            client.table(table)
+            .select("*")
+            .range(offset, offset + page_size - 1)
+            .execute()
+        )
+        rows = resp.data or []
+        all_rows.extend(rows)
+        print(f"  {table}: {len(all_rows)} dòng...")
+        if len(rows) < page_size:
+            break
+        offset += page_size
+    return all_rows
+
+def save_csv(data: list, filepath: Path):
+    if not data:
+        filepath.write_text("(empty)\n", encoding="utf-8")
         return
+    with open(filepath, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer.writeheader()
+        writer.writerows(data)
 
-    try:
-        supabase = create_client(URL, KEY)
-        today = datetime.now().strftime("%Y-%m-%d")
-        
-        # Tạo thư mục backups nếu chưa có
-        if not os.path.exists("backups"):
-            os.makedirs("backups")
-            print("Đã tạo thư mục backups")
+def save_json(data: list, filepath: Path):
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2, default=str)
 
-        for table in TABLES:
-            print(f"Đang lấy dữ liệu từ bảng: {table}...")
-            # Lấy toàn bộ dữ liệu từ bảng
-            response = supabase.table(table).select("*").execute()
-            
-            # Chuyển dữ liệu sang dạng bảng (DataFrame)
-            df = pd.DataFrame(response.data)
-            
-            # Lưu thành file CSV trong thư mục backups
-            file_path = f"backups/{table}_{today}.csv"
-            df.to_csv(file_path, index=False)
-            print(f"---> Đã lưu thành công: {file_path}")
+def main():
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    print(f"=== Backup {date_str} ===")
 
-    except Exception as e:
-        print(f"Đã xảy ra lỗi: {e}")
+    client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+    summary = {}
+    for table in TABLES:
+        print(f"\n>> {table}")
+        try:
+            rows = fetch_table(client, table)
+            # Lưu theo ngày + latest
+            day_dir = BACKUP_DIR / date_str
+            day_dir.mkdir(exist_ok=True)
+            save_csv(rows,  day_dir / f"{table}.csv")
+            save_json(rows, day_dir / f"{table}.json")
+            # Ghi đè file latest để dễ xem
+            save_csv(rows,  BACKUP_DIR / f"{table}_latest.csv")
+            summary[table] = len(rows)
+            print(f"   OK: {len(rows)} dòng")
+        except Exception as e:
+            print(f"   LỖI: {e}")
+            summary[table] = f"ERROR: {e}"
+
+    # Lưu summary
+    summary_path = BACKUP_DIR / f"{date_str}_summary.json"
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "date": date_str,
+            "url": SUPABASE_URL,
+            "tables": summary
+        }, f, ensure_ascii=False, indent=2)
+
+    print(f"\n=== XONG: {sum(v for v in summary.values() if isinstance(v,int)):,} dòng tổng ===")
 
 if __name__ == "__main__":
-    run_backup()
+    main()
+
