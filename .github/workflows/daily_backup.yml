@@ -1,40 +1,37 @@
-name: Tự động Backup Supabase
+name: Tu dong Backup Supabase
 
 on:
   schedule:
-    # Chạy lúc 17:00 UTC = 00:00 giờ Việt Nam (UTC+7)
     - cron: '0 17 * * *'
-  workflow_dispatch: # Bấm chạy thủ công để kiểm tra
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Kiểm tra mã nguồn
-        uses: actions/checkout@v4          # ← v4 thay v3
+      - name: Kiem tra ma nguon
+        uses: actions/checkout@v4
 
-      - name: Thiết lập Python
-        uses: actions/setup-python@v5      # ← v5 thay v4
+      - name: Thiet lap Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Cài đặt thư viện
+      - name: Cai dat thu vien
         run: pip install supabase
 
-      - name: Chạy file Backup
+      - name: Chay file Backup
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-     run: |
-          ls -la          # Kiểm tra xem có file backup.py không
+        run: |
+          ls -la
           python backup.py
-        run: python backup.py
 
-      - name: Lưu file CSV vào GitHub
+      - name: Luu file CSV vao GitHub
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add backup_data/
-          git commit -m "Backup $(date +'%Y-%m-%d %H:%M UTC')" || echo "Không có gì thay đổi"
+          git commit -m "Backup $(date +'%Y-%m-%d %H:%M UTC')" || echo "Khong co gi thay doi"
           git push
