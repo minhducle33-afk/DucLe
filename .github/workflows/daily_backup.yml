@@ -26,6 +26,9 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+     run: |
+          ls -la          # Kiểm tra xem có file backup.py không
+          python backup.py
         run: python backup.py
 
       - name: Lưu file CSV vào GitHub
