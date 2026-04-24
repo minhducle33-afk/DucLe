@@ -2,37 +2,36 @@ name: Tự động Backup Supabase
 
 on:
   schedule:
-    # 0 23 * * * là 23h đêm giờ quốc tế (UTC), tương đương 6h sáng giờ Việt Nam.
-    # Bạn có thể chỉnh thành '16 17 * * *' để chạy vào khoảng 0h đêm giờ VN.
-    - cron: '0 23 * * *' 
-  workflow_dispatch: # Nút này giúp bạn bấm chạy thủ công để kiểm tra ngay
+    # Chạy lúc 17:00 UTC = 00:00 giờ Việt Nam (UTC+7)
+    - cron: '0 17 * * *'
+  workflow_dispatch: # Bấm chạy thủ công để kiểm tra
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Kiểm tra mã nguồn
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4          # ← v4 thay v3
 
       - name: Thiết lập Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5      # ← v5 thay v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Cài đặt thư viện
-        run: |
-          pip install pandas supabase
+        run: pip install supabase
 
       - name: Chạy file Backup
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python backup.py # Lưu ý: Tên file python trong máy bạn phải trùng với tên này
+        run: python backup.py
 
       - name: Lưu file CSV vào GitHub
         run: |
-          git config --global user.name 'Github Action'
+          git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add .
-          git commit -m "Backup dữ liệu ngày $(date +'%Y-%m-%d')" || exit 0
+          git add backup_data/
+          git commit -m "Backup $(date +'%Y-%m-%d %H:%M UTC')" || echo "Không có gì thay đổi"
           git push
