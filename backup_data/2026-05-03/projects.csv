@@ -1,0 +1,7 @@
+﻿id,name,proj_type,team,location,cert,start_date,end_date,created_by,created_at,is_active
+96d7421c-8bdd-47a4-a38d-e8a601cc793c,ABC,New Construction,Beta,,Gold,,,78b840d1-bc69-4b68-b41f-61c682335dd2,2026-04-11T15:35:21.20061+00:00,True
+748b8a21-cd0c-4087-9492-56776a2a5247,XYZ,New Construction,Gamma,Newyork,Platinum,,,b60416d2-388a-4d37-9008-fd77bb42be25,2026-04-14T06:09:44.58581+00:00,True
+92a774a1-26e9-45d2-8c1a-9ce501420c35,JHVV,New Construction,Beta,HVN,Gold,,,78b840d1-bc69-4b68-b41f-61c682335dd2,2026-04-14T08:17:52.214374+00:00,False
+c987d0f8-d178-4898-b995-cde57a488194,gvdjgvjkgvj,New Construction,Beta,,Certified,,,b60416d2-388a-4d37-9008-fd77bb42be25,2026-04-17T09:11:22.981428+00:00,False
+45dc65bd-890d-45ee-9494-4cba12b962f2,jhjhjh,New Construction,Gamma,,Gold,,,ba080462-2b3f-40a5-b321-5a8b872d1d59,2026-04-18T09:34:41.859422+00:00,True
+6c2e94e2-7419-4088-95f7-48db2aa8c14d,jfjvhjvhmhv,New Construction,Gamma,,Certified,2026-04-21,2027-11-25,78b840d1-bc69-4b68-b41f-61c682335dd2,2026-04-21T01:56:24.964784+00:00,True
