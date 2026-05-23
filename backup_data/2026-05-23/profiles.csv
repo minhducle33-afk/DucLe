@@ -1,0 +1,7 @@
+﻿id,email,full_name,team,role,created_at,last_login
+b60416d2-388a-4d37-9008-fd77bb42be25,ducle@greenviet.net,Admin,Alpha,admin,2026-04-11T15:58:31.392856+00:00,
+ba080462-2b3f-40a5-b321-5a8b872d1d59,minhducle33@gmail.com,Tran Vn,Gamma,member,2026-04-14T07:29:52.914127+00:00,
+78b840d1-bc69-4b68-b41f-61c682335dd2,leducbec@gmail.com,Beta Team Lead,Gamma,lead,2026-04-11T14:55:34.396913+00:00,
+4f2aa1cc-f9f4-4acd-a3e9-cee9c80cb370,vu.tran@greenviet.net,Vu Tran,Alpha,member,2026-05-13T04:02:57.157046+00:00,
+05d21faf-1562-4af7-a70c-20bfbc6cea41,an.nguyen@greenviet.net,an.nguyen@greenviet.net,Gamma,lead,2026-05-22T04:12:34.067747+00:00,
+baedce1b-0dff-4a05-b529-0923a887272e,quangnguyen@greenviet.net,Quang,Delta,lead,2026-05-22T07:43:23.751949+00:00,
