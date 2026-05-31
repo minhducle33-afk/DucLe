@@ -1,0 +1,10 @@
+{
+  "date": "2026-05-31",
+  "url": "https://alcoojsnjxpckirwoabr.supabase.co",
+  "tables": {
+    "profiles": 6,
+    "projects": 9,
+    "tasks": 478,
+    "activity_logs": 137
+  }
+}
