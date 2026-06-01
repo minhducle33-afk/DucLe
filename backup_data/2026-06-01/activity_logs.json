@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "064f6a2f-5b5b-4bc6-807d-8c88889214bf",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: ABC",
+    "created_at": "2026-04-11T15:35:22.425996+00:00"
+  },
+  {
+    "id": "c29e2ac7-d310-4cd7-b89b-7cd881e7d10b",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Task: Storage and Collection of Recyclables → in-progress",
+    "created_at": "2026-04-13T01:24:07.795146+00:00"
+  },
+  {
+    "id": "6b2f0a80-32ec-4938-80a5-296c90ff697c",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Task: Storage and Collection of Recyclables → not-started",
+    "created_at": "2026-04-13T01:24:08.685018+00:00"
+  },
+  {
+    "id": "e16c7ed3-aeb4-40d5-8dcb-7dddc47244eb",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: XYZ",
+    "created_at": "2026-04-14T06:09:45.333767+00:00"
+  },
+  {
+    "id": "5b9cfa20-2d23-4476-83cb-7fa6c9b77819",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_USER",
+    "detail": "Tạo user: minhducle33@gmail.com (Beta - member)",
+    "created_at": "2026-04-14T07:29:53.085945+00:00"
+  },
+  {
+    "id": "29b864c2-828a-4cda-9f2e-19e24a920de4",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Admin GreenViet: Beta/admin",
+    "created_at": "2026-04-14T07:33:33.261806+00:00"
+  },
+  {
+    "id": "b986a4de-b055-4ea8-abb7-6c94493cec4c",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Admin GreenViet: Beta/admin",
+    "created_at": "2026-04-14T07:33:45.186346+00:00"
+  },
+  {
+    "id": "7fb9fd5e-13ff-4c9f-893f-e43878f9282a",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: Beta/admin",
+    "created_at": "2026-04-14T07:34:17.747737+00:00"
+  },
+  {
+    "id": "fcb046e2-a3ac-421b-8027-7219608921f8",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: Beta/member",
+    "created_at": "2026-04-14T07:35:02.269558+00:00"
+  },
+  {
+    "id": "35407f87-801f-4a3b-9dc0-e62acf3a354a",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Admin GreenViet: team=Beta, role=admin",
+    "created_at": "2026-04-14T07:59:58.216463+00:00"
+  },
+  {
+    "id": "75f8e02d-4b6b-4f50-83f7-72d14096cb92",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Admin GreenViet: team=Alpha, role=member",
+    "created_at": "2026-04-14T08:00:28.299549+00:00"
+  },
+  {
+    "id": "0c4cb3db-318b-441c-8dac-f2185bdee7c6",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Admin GreenViet: team=Alpha, role=member",
+    "created_at": "2026-04-14T08:01:05.761258+00:00"
+  },
+  {
+    "id": "4e4810ec-175b-449b-a298-775684ea422d",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "ssfsfs → na",
+    "created_at": "2026-04-14T08:08:01.745387+00:00"
+  },
+  {
+    "id": "f5e95011-8de5-4f6f-8376-a205b8e03c57",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "ssfsfs → na",
+    "created_at": "2026-04-14T08:08:03.421346+00:00"
+  },
+  {
+    "id": "a43651f6-f25f-47df-a69a-c035f5dfad07",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "ssfsfs → na",
+    "created_at": "2026-04-14T08:08:07.892119+00:00"
+  },
+  {
+    "id": "f9d83286-c2f0-4b97-a2f1-28f7dcf72a9f",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "ssfsfs → na",
+    "created_at": "2026-04-14T08:08:14.607499+00:00"
+  },
+  {
+    "id": "a0df081b-7c45-4c74-bba5-e3894efc41fe",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-14T08:13:12.010212+00:00"
+  },
+  {
+    "id": "d0c4dea3-7b2c-49d9-a129-bf345ad0f995",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-14T08:14:05.839618+00:00"
+  },
+  {
+    "id": "7a5d4e1f-c8ae-4f4b-9829-a90f05435389",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: JHVV",
+    "created_at": "2026-04-14T08:17:53.038506+00:00"
+  },
+  {
+    "id": "0af6e2f7-eaa5-48e3-9cc2-e86a81d6ab62",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-14T08:33:37.393818+00:00"
+  },
+  {
+    "id": "50d814f9-bcf9-4f71-9be0-492397c183e4",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Delta, role=member",
+    "created_at": "2026-04-14T08:34:15.577608+00:00"
+  },
+  {
+    "id": "b295d490-921d-4474-a527-8b9d3bf72cd1",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Delta, role=member",
+    "created_at": "2026-04-14T08:37:37.435309+00:00"
+  },
+  {
+    "id": "fac725e6-3810-445a-bc56-071c118fea1a",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "DELETE_USER",
+    "detail": "Xóa user: ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "created_at": "2026-04-14T08:38:54.802625+00:00"
+  },
+  {
+    "id": "86fe3448-3689-49f1-96ca-e0df02e71f3b",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "DELETE_USER",
+    "detail": "Xóa user: ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "created_at": "2026-04-14T08:58:03.147238+00:00"
+  },
+  {
+    "id": "4cf5e1ee-425d-4163-b9f7-2a2d73622f36",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-15T02:02:05.720109+00:00"
+  },
+  {
+    "id": "3d690a28-c69a-4911-8200-9d82a2db2248",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Delta, role=member",
+    "created_at": "2026-04-15T02:03:05.805332+00:00"
+  },
+  {
+    "id": "17356836-a9ec-438d-95c1-f32a7b90310a",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-15T02:08:24.638881+00:00"
+  },
+  {
+    "id": "7e359156-abbe-4377-89b5-7a332e2ebb30",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Delta, role=member",
+    "created_at": "2026-04-15T03:40:34.412523+00:00"
+  },
+  {
+    "id": "d4d950da-737f-45e9-b9ea-43b9d4795ea3",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Beta, role=member",
+    "created_at": "2026-04-17T09:06:11.53761+00:00"
+  },
+  {
+    "id": "8f49eabd-0602-48b0-910c-a343744e54d4",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "LEED for Neighborhood Development Location → completed",
+    "created_at": "2026-04-17T09:06:58.014487+00:00"
+  },
+  {
+    "id": "1ee941d9-7f84-4ab4-a5b7-3384c2cf873e",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "LEED for Neighborhood Development Location → in-progress",
+    "created_at": "2026-04-17T09:07:35.510278+00:00"
+  },
+  {
+    "id": "42b054bd-2473-4e37-b504-c712e0597cee",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: gvdjgvjkgvj",
+    "created_at": "2026-04-17T09:11:23.831434+00:00"
+  },
+  {
+    "id": "28169db7-1487-414b-a995-3396aaf582c0",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Sensitive Land Protection → completed",
+    "created_at": "2026-04-17T13:54:26.739752+00:00"
+  },
+  {
+    "id": "176d8975-871a-455c-ba3a-54fa62fc034d",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "DELETE_PROJECT",
+    "detail": "Xóa dự án: JHVV",
+    "created_at": "2026-04-17T14:43:13.481877+00:00"
+  },
+  {
+    "id": "254d92e6-8c19-4a65-bdc2-1efa4b53cd8d",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Tran Vn: team=Gamma, role=member",
+    "created_at": "2026-04-17T14:45:24.391752+00:00"
+  },
+  {
+    "id": "1bc214a4-45ad-4939-89bc-11a0cc93783b",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Beta Team Lead: team=Gamma, role=lead",
+    "created_at": "2026-04-17T14:45:49.057815+00:00"
+  },
+  {
+    "id": "df72ff93-f630-429b-b832-b1fa22dad6ca",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "DELETE_PROJECT",
+    "detail": "Xóa dự án: gvdjgvjkgvj",
+    "created_at": "2026-04-18T09:32:31.285195+00:00"
+  },
+  {
+    "id": "8b224061-a04b-4b5a-9bc0-d7000d782baa",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Integrative Process",
+    "created_at": "2026-04-18T09:34:04.06097+00:00"
+  },
+  {
+    "id": "31bddbbc-9805-4c24-89ab-d8de1bc27317",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: jhjhjh",
+    "created_at": "2026-04-18T09:34:43.060851+00:00"
+  },
+  {
+    "id": "e51da31f-f2f8-4e21-a50c-f0aa83077ac5",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "LEED for Neighborhood Development Location → completed",
+    "created_at": "2026-04-18T09:35:31.119041+00:00"
+  },
+  {
+    "id": "5d5a16ed-acf3-4426-84c7-dde996c40f81",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: LEED for Neighborhood Development Location",
+    "created_at": "2026-04-18T09:35:33.441459+00:00"
+  },
+  {
+    "id": "4e98aa86-123f-4f8d-b0ef-0f90dd554e6e",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Integrative Process",
+    "created_at": "2026-04-18T09:37:11.327699+00:00"
+  },
+  {
+    "id": "833fdcd9-5236-402a-9242-f13bdb6040f4",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: LEED for Neighborhood Development Location",
+    "created_at": "2026-04-18T09:37:17.244976+00:00"
+  },
+  {
+    "id": "f1fef7ee-8e0f-4cde-9412-d25736f12bd2",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Sensitive Land Protection",
+    "created_at": "2026-04-18T09:42:24.462621+00:00"
+  },
+  {
+    "id": "fc61f593-b2a0-4cda-9c96-44b24a9cc588",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "High Priority Site and Equitable Development → completed",
+    "created_at": "2026-04-18T09:42:29.569615+00:00"
+  },
+  {
+    "id": "147cdf0f-c120-4527-865f-a1ac43f3a50c",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: High Priority Site and Equitable Development",
+    "created_at": "2026-04-18T09:42:32.765781+00:00"
+  },
+  {
+    "id": "c07134d7-62b6-4540-a86e-30dcb55b9ff0",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "Surrounding Density and Diverse Uses → in-progress",
+    "created_at": "2026-04-18T09:42:37.105755+00:00"
+  },
+  {
+    "id": "db739912-eaaa-471c-b2d0-b780200787b9",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Surrounding Density and Diverse Uses",
+    "created_at": "2026-04-18T09:42:38.896754+00:00"
+  },
+  {
+    "id": "096ad931-d907-470d-8535-108ed2620cd1",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → in-progress",
+    "created_at": "2026-04-18T09:43:29.971223+00:00"
+  },
+  {
+    "id": "791ac8cd-9a00-4de5-bf67-fe86a968c5d0",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "REJECT_TASK",
+    "detail": "Reject: Sensitive Land Protection — ngoc nghech",
+    "created_at": "2026-04-18T09:49:54.217955+00:00"
+  },
+  {
+    "id": "b5ddaada-21fa-4439-a5be-c61ece09a77d",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: High Priority Site and Equitable Development",
+    "created_at": "2026-04-18T09:50:01.425119+00:00"
+  },
+  {
+    "id": "62c31c5c-5feb-485c-8ecb-65f6d16ea81a",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Surrounding Density and Diverse Uses",
+    "created_at": "2026-04-18T09:50:03.531325+00:00"
+  },
+  {
+    "id": "34ff3d9d-5d79-4341-be23-02befa6c0c9a",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → completed",
+    "created_at": "2026-04-20T01:46:07.412742+00:00"
+  },
+  {
+    "id": "78ed7ec6-3006-496c-b2fd-560f5ac17b64",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Access to Quality Transit",
+    "created_at": "2026-04-20T07:23:40.347224+00:00"
+  },
+  {
+    "id": "0a6bbc51-2d7a-4550-9257-f8d9caf60a86",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Bicycle Facilities",
+    "created_at": "2026-04-20T07:23:43.372057+00:00"
+  },
+  {
+    "id": "3fcb73b9-57b4-40a7-be41-270010b60502",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Access to Quality Transit",
+    "created_at": "2026-04-20T08:20:30.131774+00:00"
+  },
+  {
+    "id": "1de2c86e-f53e-403a-8f5c-a75c3af2f384",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Bicycle Facilities",
+    "created_at": "2026-04-20T08:20:31.359882+00:00"
+  },
+  {
+    "id": "8a174dd4-bc84-4fd6-810a-3ee0e4f8e093",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "Sensitive Land Protection → completed",
+    "created_at": "2026-04-20T08:39:01.003021+00:00"
+  },
+  {
+    "id": "35ff345f-c2b7-4360-bc20-f865da02746e",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Sensitive Land Protection",
+    "created_at": "2026-04-20T08:39:21.189326+00:00"
+  },
+  {
+    "id": "c5bc8447-9390-4dd9-abfc-56cfa02ea3e2",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Sensitive Land Protection",
+    "created_at": "2026-04-20T08:40:29.668502+00:00"
+  },
+  {
+    "id": "26ae7925-6b4a-4ba8-a04a-0ec439326e88",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Integrative Process",
+    "created_at": "2026-04-20T08:43:10.16104+00:00"
+  },
+  {
+    "id": "e698a4c3-da28-4ece-9ed9-6ae4f5c27b6c",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: c966e1e1-7079-4547-a84e-1107049c1b70",
+    "created_at": "2026-04-20T08:43:36.958029+00:00"
+  },
+  {
+    "id": "1f1dd485-5cee-4295-a8d2-0d2d266b37f3",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Integrative Process",
+    "created_at": "2026-04-20T08:44:26.043523+00:00"
+  },
+  {
+    "id": "f558b718-a3d2-42d2-8a04-0e96df1bb6b5",
+    "user_id": "ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "user_email": "minhducle33@gmail.com",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → completed",
+    "created_at": "2026-04-20T08:44:30.754995+00:00"
+  },
+  {
+    "id": "a558b4e4-7764-4297-976c-eee9439e25a0",
+    "user_id": "78b840d1-bc69-4b68-b41f-61c682335dd2",
+    "user_email": "leducbec@gmail.com",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: jfjvhjvhmhv",
+    "created_at": "2026-04-21T01:56:26.026253+00:00"
+  },
+  {
+    "id": "da346cba-e292-4741-9b05-2dff6d792681",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_USER",
+    "detail": "Tạo user: vu.tran@greenviet.net (Alpha - lead)",
+    "created_at": "2026-05-13T04:02:57.326427+00:00"
+  },
+  {
+    "id": "e89c64a8-aece-42a3-8295-89683039a652",
+    "user_id": "4f2aa1cc-f9f4-4acd-a3e9-cee9c80cb370",
+    "user_email": "vu.tran@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: LONG NGUYEN FACTORY",
+    "created_at": "2026-05-13T07:56:02.008157+00:00"
+  },
+  {
+    "id": "81ab4e32-e9d3-474c-ae6c-524e08b9e63d",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "DELETE_USER",
+    "detail": "Xóa user: ba080462-2b3f-40a5-b321-5a8b872d1d59",
+    "created_at": "2026-05-22T04:09:34.812621+00:00"
+  },
+  {
+    "id": "9867618d-5b53-4522-bd89-cdb3fe370517",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "DELETE_USER",
+    "detail": "Xóa user: 4f2aa1cc-f9f4-4acd-a3e9-cee9c80cb370",
+    "created_at": "2026-05-22T04:10:21.151422+00:00"
+  },
+  {
+    "id": "61ac94a1-71c3-411c-a2d7-64ad06a44f73",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_USER",
+    "detail": "Cập nhật Vu Tran: team=Alpha, role=member",
+    "created_at": "2026-05-22T04:11:02.523841+00:00"
+  },
+  {
+    "id": "e9d24e9a-7c8b-4d63-bcc4-a65e3004a205",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_USER",
+    "detail": "Tạo user: an.nguyen@greenviet.net (Gamma - lead)",
+    "created_at": "2026-05-22T04:12:34.217768+00:00"
+  },
+  {
+    "id": "1d5615bd-be9f-4644-b7ef-896d869a4709",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Light Pollution Reduction → in-progress",
+    "created_at": "2026-05-22T04:28:12.506661+00:00"
+  },
+  {
+    "id": "6998b2ef-114d-4ce7-9433-3ebfaffaf632",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Light Pollution Reduction → completed",
+    "created_at": "2026-05-22T04:28:14.381104+00:00"
+  },
+  {
+    "id": "a700ca00-f4b5-4bbe-aa18-fb96b1968813",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Light Pollution Reduction → in-progress",
+    "created_at": "2026-05-22T04:28:16.872346+00:00"
+  },
+  {
+    "id": "30e27352-a5a3-4472-a996-d33d35a3add9",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Light Pollution Reduction → completed",
+    "created_at": "2026-05-22T04:28:18.776341+00:00"
+  },
+  {
+    "id": "fb52703e-81dd-431a-ba1a-d2b0b5dda495",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Heat Island Reduction → in-progress",
+    "created_at": "2026-05-22T04:28:21.99287+00:00"
+  },
+  {
+    "id": "ed906ef0-2aaa-40df-ac5e-eb19c0a7caa4",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Heat Island Reduction → completed",
+    "created_at": "2026-05-22T04:28:23.448098+00:00"
+  },
+  {
+    "id": "ff9c12df-d093-4a37-88b5-8172cc84bc0d",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Rainwater Management → in-progress",
+    "created_at": "2026-05-22T04:28:28.055163+00:00"
+  },
+  {
+    "id": "90b6eeed-c7c9-46ed-8fdf-53799c7cc9b6",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Rainwater Management → completed",
+    "created_at": "2026-05-22T04:28:30.579979+00:00"
+  },
+  {
+    "id": "6eb8ad0e-5af8-4c45-a3b5-abfcd99ed433",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → in-progress",
+    "created_at": "2026-05-22T04:28:36.091685+00:00"
+  },
+  {
+    "id": "136178b2-0dbb-4b8b-8079-259451648f8b",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → completed",
+    "created_at": "2026-05-22T04:28:37.943248+00:00"
+  },
+  {
+    "id": "be9432b4-9263-4972-a3d5-788f0c0e4104",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → not-started",
+    "created_at": "2026-05-22T04:28:47.269845+00:00"
+  },
+  {
+    "id": "140510e7-5f99-4163-9e3d-c072c0c47c55",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → na",
+    "created_at": "2026-05-22T04:28:55.42024+00:00"
+  },
+  {
+    "id": "25dce774-9fb1-407a-98d1-6673eb8bdc0e",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → completed",
+    "created_at": "2026-05-22T04:28:56.9567+00:00"
+  },
+  {
+    "id": "85ebe9a6-f582-49b5-964d-8c86f4a22a81",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → in-progress",
+    "created_at": "2026-05-22T04:29:01.149507+00:00"
+  },
+  {
+    "id": "cef830be-67df-48e3-b133-ec7fe9d241ed",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → completed",
+    "created_at": "2026-05-22T04:29:05.389515+00:00"
+  },
+  {
+    "id": "71d2d89b-fa96-4782-a0ff-fcccde981884",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → in-progress",
+    "created_at": "2026-05-22T04:29:07.500975+00:00"
+  },
+  {
+    "id": "cd1136ff-4fe9-44aa-8819-9479fa8d3f53",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Open Space",
+    "created_at": "2026-05-22T04:29:44.835683+00:00"
+  },
+  {
+    "id": "e619987f-68f7-493d-bcb6-88ba997ee009",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Open Space",
+    "created_at": "2026-05-22T04:30:06.869827+00:00"
+  },
+  {
+    "id": "4bb07893-51fd-4101-befe-9d3677ee1798",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Open Space",
+    "created_at": "2026-05-22T04:30:10.517218+00:00"
+  },
+  {
+    "id": "c6259d2a-789a-4c58-bae8-065649cc2812",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Open Space",
+    "created_at": "2026-05-22T04:30:15.797524+00:00"
+  },
+  {
+    "id": "0d8ba86f-7c1e-483f-abdc-3e250e74472f",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Open Space",
+    "created_at": "2026-05-22T04:30:28.969448+00:00"
+  },
+  {
+    "id": "a9c5c2d3-07cf-422d-8574-8d53fc27c8da",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Open Space",
+    "created_at": "2026-05-22T04:30:31.410729+00:00"
+  },
+  {
+    "id": "181e42bd-f36b-49e9-b597-dd6abe722843",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → completed",
+    "created_at": "2026-05-22T04:30:45.430737+00:00"
+  },
+  {
+    "id": "d96593ca-4234-4293-a440-13d6a31c0ba3",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Open Space → in-progress",
+    "created_at": "2026-05-22T04:30:48.635612+00:00"
+  },
+  {
+    "id": "b1bb6d03-0490-49e3-8427-21f0b786efd1",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Open Space",
+    "created_at": "2026-05-22T04:30:55.980681+00:00"
+  },
+  {
+    "id": "8ff1d9b2-3f90-4686-b028-bee5ade31c37",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Open Space",
+    "created_at": "2026-05-22T04:31:36.087519+00:00"
+  },
+  {
+    "id": "0de5aead-4780-4060-8f63-80c4d907a6a6",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Open Space",
+    "created_at": "2026-05-22T04:31:38.596956+00:00"
+  },
+  {
+    "id": "56c74ea1-e424-4031-90ce-8f468b51115f",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Open Space",
+    "created_at": "2026-05-22T04:31:51.490755+00:00"
+  },
+  {
+    "id": "98ea3a64-c792-4f9e-857c-b8c6e205e029",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Open Space",
+    "created_at": "2026-05-22T04:32:06.563058+00:00"
+  },
+  {
+    "id": "3a73c6fd-6bc7-4599-95ac-0f8eabed2a3a",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Open Space",
+    "created_at": "2026-05-22T04:32:11.141628+00:00"
+  },
+  {
+    "id": "36954502-d051-4fe1-b129-5f52cdefdc06",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Reduced Parking Footprint",
+    "created_at": "2026-05-22T04:34:00.529858+00:00"
+  },
+  {
+    "id": "36a321d6-e7dc-40ca-ab33-5bb01462829f",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Electric Vehicles → completed",
+    "created_at": "2026-05-22T04:37:10.980983+00:00"
+  },
+  {
+    "id": "a7b48122-f80f-427b-9ed6-47113003fd06",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Electric Vehicles",
+    "created_at": "2026-05-22T04:37:41.832786+00:00"
+  },
+  {
+    "id": "f7b59f26-fa19-4fb7-9cb0-25b9010478e5",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "jksfjksdfsd → completed",
+    "created_at": "2026-05-22T04:40:56.084802+00:00"
+  },
+  {
+    "id": "eb020546-871c-41ec-a577-69b191df5a2e",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "LEED for Neighborhood Development Location → completed",
+    "created_at": "2026-05-22T06:08:02.40167+00:00"
+  },
+  {
+    "id": "df1c19b3-07d1-4a75-bd4d-1b9790c3bb1f",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: LEED for Neighborhood Development Location",
+    "created_at": "2026-05-22T06:19:00.719794+00:00"
+  },
+  {
+    "id": "7bd9977d-bab7-4b87-b9ca-b65bd5c1bf78",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Construction Activity Pollution Prevention → completed",
+    "created_at": "2026-05-22T07:08:58.615865+00:00"
+  },
+  {
+    "id": "cfcd8756-7b27-43a1-95cb-99888117a824",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Construction Activity Pollution Prevention",
+    "created_at": "2026-05-22T07:09:23.358377+00:00"
+  },
+  {
+    "id": "9acf0071-d433-47c1-8d30-4de4a9ea7242",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Outdoor Water Use Reduction → completed",
+    "created_at": "2026-05-22T07:18:11.58296+00:00"
+  },
+  {
+    "id": "d69ad847-45a2-4aad-b18c-ea188d070c64",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Outdoor Water Use Reduction",
+    "created_at": "2026-05-22T07:19:06.656503+00:00"
+  },
+  {
+    "id": "806f6d27-8465-4f76-a783-efb5b5553129",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Fundamental Commissioning and Verification → completed",
+    "created_at": "2026-05-22T07:29:24.821396+00:00"
+  },
+  {
+    "id": "a010c94d-4ee5-4a31-a6ac-06549c57cc5d",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Fundamental Commissioning and Verification",
+    "created_at": "2026-05-22T07:29:42.141899+00:00"
+  },
+  {
+    "id": "1d88de43-c87a-4b5a-88bc-b2d19abd46b5",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Outdoor Water Use Reduction → in-progress",
+    "created_at": "2026-05-22T07:30:48.086914+00:00"
+  },
+  {
+    "id": "f819762e-1f16-4d4b-973e-8a55fd07d419",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Outdoor Water Use Reduction",
+    "created_at": "2026-05-22T07:30:58.581254+00:00"
+  },
+  {
+    "id": "bdcd450b-0d44-4c8e-a1ae-ba5fb0700980",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: LEED",
+    "created_at": "2026-05-22T07:32:00.77597+00:00"
+  },
+  {
+    "id": "553039c0-a951-4cd5-94b0-3976fc0be031",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "LEED for Neighborhood Development Location → na",
+    "created_at": "2026-05-22T07:32:15.048193+00:00"
+  },
+  {
+    "id": "ccfd1c2b-8dfe-43b6-ba94-4755a33c2cee",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Sensitive Land Protection → na",
+    "created_at": "2026-05-22T07:32:27.946696+00:00"
+  },
+  {
+    "id": "58c96184-56e3-4e71-94a2-b715a78b200e",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Outdoor Water Use Reduction",
+    "created_at": "2026-05-22T07:41:12.205194+00:00"
+  },
+  {
+    "id": "16620df4-2da2-4adf-b80b-6eadc008c398",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Outdoor Water Use Reduction",
+    "created_at": "2026-05-22T07:41:19.538982+00:00"
+  },
+  {
+    "id": "31066fa2-fa74-40ab-984e-7db7e9693344",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Outdoor Water Use Reduction",
+    "created_at": "2026-05-22T07:41:26.660883+00:00"
+  },
+  {
+    "id": "acbda777-c3b8-4525-a3a3-bd5c3acfed86",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "CREATE_USER",
+    "detail": "Tạo user: quangnguyen@greenviet.net (Delta - lead)",
+    "created_at": "2026-05-22T07:43:23.940852+00:00"
+  },
+  {
+    "id": "3b18fb1b-7ea1-4cda-aa08-6b2d7527e9ad",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: One Central",
+    "created_at": "2026-05-22T07:44:53.109063+00:00"
+  },
+  {
+    "id": "cae36a0c-d5c6-4553-9190-62462a3f8474",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Reduced Parking Footprint → completed",
+    "created_at": "2026-05-22T07:45:11.400093+00:00"
+  },
+  {
+    "id": "5cf2beaf-7477-4767-91d7-1afb200100aa",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Protect or Restore Habitat → in-progress",
+    "created_at": "2026-05-22T07:45:35.404657+00:00"
+  },
+  {
+    "id": "d6837025-ffc1-4f16-b4de-6ef07afb6bfd",
+    "user_id": "05d21faf-1562-4af7-a70c-20bfbc6cea41",
+    "user_email": "an.nguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: LEED for Neighborhood Development Location",
+    "created_at": "2026-05-22T07:47:54.655137+00:00"
+  },
+  {
+    "id": "6bb833ae-a972-45e2-830f-cf3121aca6d6",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "CREATE_PROJECT",
+    "detail": "Tạo dự án: SLP Tien Du",
+    "created_at": "2026-05-22T07:48:04.191311+00:00"
+  },
+  {
+    "id": "6d3fdbef-9642-4bf1-913e-cd05e8ac6a1f",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → in-progress",
+    "created_at": "2026-05-22T07:48:35.18964+00:00"
+  },
+  {
+    "id": "6d7b6b81-ef5d-4b9d-aa16-07f204a3ef92",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → completed",
+    "created_at": "2026-05-22T07:51:08.054159+00:00"
+  },
+  {
+    "id": "0595e893-b893-4900-aadd-8dd1c669095b",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: Integrative Process",
+    "created_at": "2026-05-22T07:51:46.700941+00:00"
+  },
+  {
+    "id": "1243cb05-d332-482d-a591-e00923ae12cb",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "APPROVE_TASK",
+    "detail": "Approve: Integrative Process",
+    "created_at": "2026-05-22T07:54:05.994522+00:00"
+  },
+  {
+    "id": "7efa2729-aab8-40f0-a731-fc6633448caa",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "REOPEN_TASK",
+    "detail": "Reopen: Integrative Process",
+    "created_at": "2026-05-22T07:55:45.752012+00:00"
+  },
+  {
+    "id": "791b50bd-f2ca-4b9b-96cf-a39a4cfbfaa6",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → completed",
+    "created_at": "2026-05-22T07:55:50.688193+00:00"
+  },
+  {
+    "id": "12021b40-b658-44a7-8fbd-4b222d60c19f",
+    "user_id": "baedce1b-0dff-4a05-b529-0923a887272e",
+    "user_email": "quangnguyen@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → in-progress",
+    "created_at": "2026-05-22T07:55:54.102956+00:00"
+  },
+  {
+    "id": "ca688b16-56e1-464f-9f92-0add063537f6",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "Integrative Process → completed",
+    "created_at": "2026-05-30T01:46:16.750063+00:00"
+  },
+  {
+    "id": "2a02d877-d440-4f9e-bd93-707a23eeb1b5",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_STATUS",
+    "detail": "High Priority Site and Equitable Development → completed",
+    "created_at": "2026-05-30T02:01:40.099469+00:00"
+  },
+  {
+    "id": "52c9f823-1bb7-4fd1-b5ad-f3dce5c9decc",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "SUBMIT_TASK",
+    "detail": "Submit: High Priority Site and Equitable Development",
+    "created_at": "2026-05-30T02:01:43.25922+00:00"
+  },
+  {
+    "id": "1c2874fb-2f6f-4a5e-80b2-5ad3d5859351",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: XYZ",
+    "created_at": "2026-06-01T11:36:40.014938+00:00"
+  },
+  {
+    "id": "d79f809a-690f-4273-8edf-b70802a05a35",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: XYZ",
+    "created_at": "2026-06-01T11:40:24.828124+00:00"
+  },
+  {
+    "id": "7c562074-89c2-43d5-b18d-e57f45c99afb",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: ABC",
+    "created_at": "2026-06-01T11:49:51.794821+00:00"
+  },
+  {
+    "id": "305bacdb-f6a2-49e9-89d4-9cd79774a1ff",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: ABC",
+    "created_at": "2026-06-01T11:54:00.359457+00:00"
+  },
+  {
+    "id": "c60d364e-cf78-45a6-81fe-26fb82e38037",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: ABC",
+    "created_at": "2026-06-01T13:10:19.720727+00:00"
+  },
+  {
+    "id": "67f06d59-ba98-496f-aecb-68c34b4b1589",
+    "user_id": "b60416d2-388a-4d37-9008-fd77bb42be25",
+    "user_email": "ducle@greenviet.net",
+    "action": "UPDATE_PAYMENT",
+    "detail": "Cập nhật phí dịch vụ: ABC",
+    "created_at": "2026-06-01T13:11:01.710186+00:00"
+  }
+]
